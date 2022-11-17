@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "ROBIE",
+    "description": "A prototype for a digital banking app with multiple features including account monitoring, Cash In, Lending, Transfers, Payments, Investments, and more",
+    "owner": "SGV",
+    "slug": "sgvROBIE",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ROBIE.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+    	"bundleIdentifier": "com.sgv.ROBIE",
+      "supportsTablet": true
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#000000"
+    },
+    "android": {
+    	"package": "com.sgv.ROBIE"
+    }
+  }
+}
